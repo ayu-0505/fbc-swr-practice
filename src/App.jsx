@@ -2,8 +2,7 @@ import useSWR from "swr";
 import "./App.css";
 
 function App() {
-  const url = "https://foobarbaz";
-  // const url = "https://httpstat.us/200?sleep=2000";
+  const url = "https://httpstat.us/200?sleep=2000";
   const headers = { Accept: "application/json" };
 
   const fetcher = (url, { headers }) =>
