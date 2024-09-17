@@ -17,11 +17,7 @@ function App() {
   if (error) return <div>Failed to load.</div>;
   if (isLoading) return <div>Loading...</div>;
 
-  return (
-    <>
-      <p>Status : {data}</p>
-    </>
-  );
+  return <p>Status : {data}</p>;
 }
 
 export default App;
